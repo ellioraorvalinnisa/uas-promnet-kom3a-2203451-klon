@@ -17,7 +17,7 @@ type User struct {
 	ID          int    `json:"id"`
 	NamaBarang  string `json:"nama_barang"`
 	Jumlah      int    `json:"jumlah"`
-	HargaSatuan string `json:"harga_satuan"`
+	HargaSatuan int	   `json:"harga_satuan"`
 	Lokasi      string `json:"lokasi"`
 	Deskripsi   string `json:"deskripsi"`
 }
